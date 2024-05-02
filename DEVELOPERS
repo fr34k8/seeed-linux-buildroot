@@ -942,7 +942,6 @@ F:	package/openbox/
 F:	package/supertuxkart/
 
 N:	Fabio Estevam <festevam@gmail.com>
-F:	board/freescale/warpboard/
 F:	board/warp7/
 F:	configs/freescale_imx*
 F:	configs/imx23evk_defconfig
@@ -963,7 +962,6 @@ F:	configs/mx6sx_udoo_neo_defconfig
 F:	configs/mx6udoo_defconfig
 F:	configs/wandboard_defconfig
 F:	configs/warp7_defconfig
-F:	configs/warpboard_defconfig
 F:	package/atest/
 F:	package/crucible/
 F:	package/kmscube/
@@ -1789,6 +1787,7 @@ F:	support/testing/tests/package/test_file/
 F:	support/testing/tests/package/test_fluidsynth.py
 F:	support/testing/tests/package/test_fluidsynth/
 F:	support/testing/tests/package/test_fping.py
+F:	support/testing/tests/package/test_fwts.py
 F:	support/testing/tests/package/test_gawk.py
 F:	support/testing/tests/package/test_ghostscript.py
 F:	support/testing/tests/package/test_ghostscript/
@@ -1801,6 +1800,7 @@ F:	support/testing/tests/package/test_gzip.py
 F:	support/testing/tests/package/test_highway.py
 F:	support/testing/tests/package/test_hwloc.py
 F:	support/testing/tests/package/test_iozone.py
+F:	support/testing/tests/package/test_iperf.py
 F:	support/testing/tests/package/test_iperf3.py
 F:	support/testing/tests/package/test_iptables.py
 F:	support/testing/tests/package/test_jailhouse.py
@@ -1872,6 +1872,7 @@ F:	support/testing/tests/package/test_usbutils.py
 F:	support/testing/tests/package/test_usbutils/
 F:	support/testing/tests/package/test_weston.py
 F:	support/testing/tests/package/test_weston/
+F:	support/testing/tests/package/test_wine.py
 F:	support/testing/tests/package/test_xz.py
 F:	support/testing/tests/package/test_z3.py
 F:	support/testing/tests/package/test_z3/
@@ -2768,15 +2769,9 @@ F:	support/misc/toolchainfile.cmake.in
 N:	Sam Voss <sam.voss@gmail.com>
 F:	package/ripgrep/
 
-N:	Sebastian Weyer <sebastian.weyer@smile.fr>
-F:      package/amlogic-boot-fip/
-F:	package/nushell/
-F:	package/rust-bindgen/
-F:	package/spirv-headers/
-F:	support/testing/tests/package/sample_nu.nu
-F:	support/testing/tests/package/test_nu.py
-
 N:	Sébastien Szymanski <sebastien.szymanski@armadeus.com>
+F:	board/armadeus/
+F:	configs/armadeus*
 F:	package/mmc-utils/
 F:	package/python-flask-jsonrpc/
 F:	package/python-flask-login/
@@ -2960,6 +2955,11 @@ F:	package/mpd-mpc/
 N:	Thijs Vermeir <thijsvermeir@gmail.com>
 F:	package/ranger/
 F:	package/x265/
+
+N:	Thomas Bonnefille <thomas.bonnefille@bootlin.com>
+F:	board/pine64/star64
+F:	configs/pine64_star64_defconfig
+F:	package/starfive-spltool/
 
 N:	Thomas Claveirole <thomas.claveirole@green-communications.fr>
 F:	package/fcgiwrap/
